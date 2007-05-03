@@ -20,7 +20,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(Digest::SHA)
-BuildRequires:	perl-Crypt-OpenSSL-RSA
+BuildRequires:	perl-Crypt-OpenSSL-RSA >= 0.22
 BuildRequires:	perl-Digest-SHA1
 BuildRequires:	perl-Error
 BuildRequires:	perl-MailTools
