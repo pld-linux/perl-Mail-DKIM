@@ -8,13 +8,13 @@
 Summary:	Mail::DKIM - Signs/verifies Internet mail with DKIM/DomainKey signatures
 Summary(pl.UTF-8):	Mail::DKIM - podpisywanie/sprawdzanie poczty przy użyciu podpisów DKIM/DomainKey
 Name:		perl-Mail-DKIM
-Version:	0.31
+Version:	0.32
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d83c8d6bf8dadfe4101e90e23d607dee
+# Source0-md5:	05592f264e0fbc758b93a4aa37bd7fd5
 URL:		http://search.cpan.org/dist/Mail-DKIM/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
