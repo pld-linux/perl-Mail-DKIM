@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	DKIM
 Summary:	Mail::DKIM - Signs/verifies Internet mail with DKIM/DomainKey signatures
